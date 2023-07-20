@@ -1,0 +1,335 @@
+        /* primary color design start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.primary-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+.primary-btn{
+    padding: 16px 32px;
+    border-radius: 15px;
+    background-color:#F948B2 ;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    font-size: 1,2rem;
+    margin: 10px 0
+}
+.primary-btn-2{
+    background-color:  #4EC5F7;
+}
+
+    /* parimary design end here */
+
+    /* icon color style start here */
+    .fa-youtube{
+        color: red;
+        margin:  0 5px;
+        width: 30px;
+    }
+    .fa-solid{
+        margin-right: 20px;
+        width: 20px;
+    }
+    /* icon color style end here */
+        /* nav section css cord start here */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #00000069;
+}
+.nav-title{
+    font-size: 3rem;
+    color: #000
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    
+}
+.nav-items ul{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    list-style: none;
+
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+}
+
+.nav-items a:hover{
+    color:#F948B2 ; 
+}
+.nav-items button{
+    border-radius: 8px;
+    background: #0b02231a;
+    padding: 5px 10px;
+    border: none;
+}
+
+.nav-logo img{
+    width: 100px;
+}
+
+/* nav section css cord end here */
+/* banner section css cord start here */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+    height: auto;
+
+}
+.banner-containt{
+    background-image: url("../images/Group 14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    width: 50%;
+    height: auto
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.banner-hadding{
+    font-size: 6rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.banner-containt li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+.banner-logo{
+    width: 50%;
+    
+
+}
+.banner-img{
+    width: 100%;
+}
+/* banner section css cord end here */
+/* gamer section css cord start here */
+
+.gamer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    margin-top: 50px;
+    
+}
+.gamer-logo{
+    width: 60%;
+}
+.gamer-img{
+    width: 100%;
+}
+.gamer-containt{
+    width: 40%;
+    padding-right: 30px;
+    color: #534C64;;
+}
+.gamer-title{
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.gamer-extra-title{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* gamer section css cord end here */
+
+/* online games section css cord start here */
+.online-games{
+    margin-top: 150px;
+    text-align: center;
+}
+.online-games-title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 100px auto;
+    width: 90%;
+    height: auto;
+    
+}
+.card{
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.card-logo{
+    width: 100%;
+    position: relative;
+    margin: 10px;
+}
+ .card-hover{
+    display: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.738);
+    position: absolute;
+    padding-top: 50%;
+    top: 0;
+ }
+ .card-logo:hover .card-hover{
+    display: block;
+ }
+ #hover-sticky{
+    display: block;
+ }
+ .card-logo:hover #hover-sticky{
+    display: none;
+ }
+ .card-img{
+    width: 100%;
+ }
+ #hover-icon{
+    font-size: 30px;
+    color: #fff;
+ }
+
+
+ .watch-now{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+ }
+
+/* online games section css cord end here */
+
+
+/* Play-Instantly section css cord start here */
+
+.Play-Instantly{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    border: 2px solid red;
+    
+}
+.Play-Instantl-title{
+    font-size: 3rem;
+    width: 400px;
+    margin-bottom:10px ;
+}
+.Play-Instantl-des{
+    width: 400px;
+}
+.Play-Instantl-logo {
+    width: 50%;
+    position: relative;
+}
+.Play-Instantl-img-{
+    width: 100%;
+}
+.Play-Instantl-img-2{
+    width: 250px;
+    position: absolute;
+    top: 300px;
+    left: -150px;
+}
+/* Play-Instantly section css cord end here */
+
+
+/*  games of list section css cord start here */
+
+.game-of-list-container{
+    margin: 50px 0;
+    padding-top: 40px;
+    padding-top: 50px;
+    max-width: 100%;
+    height: 50vh;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); 
+}
+.game-containt{
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    display:flex;
+    gap: 10px; 
+    margin-top: 50px;
+}
+.game-of-list-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 100px;
+    width: auto;
+    height: 80px;
+}
+.game-of-list-img:hover{
+    color: red;
+    border: 2px solid red;
+    box-shadow: 5px 5px 5px 5px rgba(54, 54, 54, 0.664);
+}
+
+/* footer section css cord start here */
+.footer-container{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    background-color: #0B0223;;
+    padding: 50px;
+}
+.footer-title{
+    color: #fff;
+}
+.footer-list ul li{
+    display: inline-block;
+    margin: 30px ;
+
+}
+.footer-frist-ul > li{
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+.list-icon{
+    font-size: 2rem;
+}
+/* footer section css cord end here */
